@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding: 0;
+   
+    
+}
+body{
+    
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*----------nav bar styling ----------- */
+
+.navbar{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    
+    align-items: center;
+    display: flex;
+    width: 50px;
+    margin-left: 10px;
+    justify-content: space-between;
+    
+}
+
+
+
+.logo{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid transparent;
+
+    
+}
+
+.photo-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 3px;
+    
+}
+
+.logo:hover{
+    border: 5px solid #b86cf3;
+    border-radius: 50%;
+}
+
+
+ ul{
+    list-style: none;
+    display: flex;
+   
+
+}
+
+
+ ul li{
+    padding:15px;
+}
+.nav-element{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+    border:5px solid transparent;
+}
+
+.nav-element:hover{
+    border:5px solid #b86cf3;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* first container syling ---------------------------------------------------------------*/
+
+
+
+.first-container{
+    height: 80vh;
+    width: 100%;
+    background-color:#b86cf3; 
+    display: flex;
+  
+}
+
+
+
+.written-intro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.first{
+    font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  height: 50%;
+    margin-right: 2rem;
+    margin-bottom: 40px;
+}
+
+
+.second{
+    height: 50%;
+    font-weight: 400;
+    font-size: 17px;
+    width: 400px;
+   
+}
+
+.second>p{
+    font-size: 23px;
+
+}
+
+
+
+.pro{
+    color: white;
+    font-size: 70px;
+}
+
+.intro-two{
+    font-size: 70px;
+}
+
+.intro{
+   
+    margin-top: 50px;
+    font-size: 75px;
+}
+
+.email{
+   
+   color: white;
+    margin: 20px;
+    font-size: 20px;
+
+    padding-bottom: 30px;
+}
+
+
+
+
+/* intro image styling----------------------------------------------------------------------------------------------------*/
+
+
+.intro-images{
+
+    width: 50%;
+    height: 70vh;
+}
+
+
+.first-cloud{
+    position: absolute;
+    height: 50px;
+    margin-left: 2rem;
+    padding: 20px;  
+    justify-content: start;
+}
+
+
+
+.intro-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px ;
+}
+
+
+.second-cloud{
+    display: flex;
+    height: 50px;
+    margin-left: 30rem;
+    padding: 4px;  
+    justify-content: center;
+}
+
+
+/*----SECOND CONTAINER STYLING--------------------------------------------------------------------------------------------------------------------------*/
+.line{
+    
+    width: 80%;
+   margin-left: 10%;
+   margin-top: 20px;
+}
+
+.second-container{
+    background-color: rgb(225, 225, 225);
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    
+    
+}
+
+
+.second-container>div>h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  padding-top: 100px;
+   width: 100%;
+   font-family: "Poppins", sans-serif;
+   font-size: 50px;
+   
+}
+
+
+.first-skill{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10rem;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.skill-heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: block;
+
+    font-size: 2rem;
+   margin-bottom: 10px;
+
+}
+
+.first-skill div img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+   
+}
+
+.skill-para{
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.skill-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    background-color:white;
+    border-radius: 15% ;
+    border: #b86cf3 solid;
+}
+
+
+.contact{
+    float: right;
+    position:fixed;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+
+.third-container{ font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name{
+    padding-right: 200px;
+   
+}
+.footer-link>a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
